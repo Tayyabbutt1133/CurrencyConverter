@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="convert.css">
+</head>
+<body>
+    
+
+<div class="container">
+    <h2>Currency Converter</h2>
+    <form>
+        <div class="amount">
+            <p>Enter Amount</p>
+            <input value="100" type="text">
+        </div>
+        <div class="dropdown">
+          <div class="from">
+            <p>From</p>
+            <div class="select-container">
+                <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                <select name="from">
+            <!-- <option value="USD">USD</option>
+            <option value="PKR">PKR</option>
+            <option value="Aed">Dirham</option>
+            <option value="Euro">Euros</option> -->
+                </select>
+            </div>
+          </div>
+          <div class="to">
+            <p>To</p>
+            <div class="select-container">
+                <img src="https://flagsapi.com/PK/flat/64.png" alt="">
+                <select name="to">
+                    <!-- <option value="USD">USD</option>
+                    <option value="PKR">PKR</option>
+                    <option value="USD">Dirham</option>
+                    <option value="PKR">Euros</option> -->
+                </select>
+            </div>
+          </div>  
+        </div>
+        <div class="msg">1USD= 281Pkr</div>
+        <button>Get Exchange Rate</button>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+   
+    
+   <!-- js file   -->
+   <script src="countrycodes.js"></script>
+   <script src="convert.js"></script>
+</body>
+</html>
